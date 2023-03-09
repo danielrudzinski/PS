@@ -1,0 +1,20 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+unsigned int wartosc_bezwzgledna(int x){
+if(x>0)
+{
+return x;
+}
+else return -x;
+}
+
+
+
+
+
+int main(){
+ int n;
+scanf("%d",&n);
+printf("%d=%d",n,wartosc_bezwzgledna(n));
+}
