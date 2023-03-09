@@ -1,0 +1,23 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+
+ unsigned int silnia(unsigned int x){
+ if(x==0){
+    return 1;
+ }
+ else{
+    return x*silnia(x-1);
+ }
+ }
+
+
+
+int main(){
+int n;
+scanf("&d",&n);
+printf("%d i %d",n,silnia(n));
+return 0;
+
+
+}
